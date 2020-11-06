@@ -18,7 +18,7 @@
           Cambiamo il colore!
         </button>
 
-        <img :src="firstPic" :class="imgDisplayed" alt="">
+        <img v-bind:src="imgSrc" alt="">
 
         <button type="button" name="button" @click="changePics">
           Cambiamo la foto
