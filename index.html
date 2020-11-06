@@ -10,9 +10,21 @@
 
     <div id="root">
 
-      <h1 :class="colorTitle">{{hello}}</h1>
+      <div class="title">
 
-      <button type="button" name="button" @click="changeColor">Cambiamo il colore!</button>
+        <h1 :class="colorTitle">{{hello}}</h1>
+
+        <button type="button" name="button" @click="changeColor">
+          Cambiamo il colore!
+        </button>
+
+        <img :src="firstPic" alt="">
+
+        <button type="button" name="button" @click="changePics">
+          Cambiamo la foto
+        </button>
+
+      </div>
 
 
     </div>

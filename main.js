@@ -5,10 +5,23 @@ var app = new Vue({
   data: {
 
     hello: 'Hello World',
-    colorTitle: 'green'
+    colorTitle: 'green',
+    firstPic: 'hello.jpeg',
+    secondPic: 'royal.jpg',
+    thirdPic: 'pier.jpg'
 
   },
   methods: {
+
+    changePics: function() {
+
+      if (this.firstPic == 'hello.jpeg') {
+        return this.firstPic == 'pier.jpg'
+        console.log(ciao);
+
+      }
+
+    },
 
     changeColor: function() {
 
@@ -21,8 +34,6 @@ var app = new Vue({
         return this.colorTitle = 'green';
 
       }
-
-
 
     }
 
