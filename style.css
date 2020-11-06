@@ -28,3 +28,11 @@ button {
 img {
   margin-top: 20px;
 }
+
+.active {
+  display: block;
+}
+
+.none {
+  display: none;
+}
