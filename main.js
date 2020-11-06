@@ -15,11 +15,8 @@ var app = new Vue({
 
     changePics: function() {
 
-      if (this.firstPic == 'hello.jpeg') {
-        return this.firstPic == 'pier.jpg'
-        console.log(ciao);
-
-      }
+        return this.firstPic = 'pier.jpg'
+        console.log('prova');
 
     },
 
